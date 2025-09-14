@@ -22,7 +22,7 @@ Requirements
   ```sh
   pip install pyautogui pyperclip python-dotenv google-generative-ai
 
-  Setup
+Setup
 
 Place your Gemini (Google generative AI) API key into the .env file as an environment variable named GEMINI. The current program.py loads GEMINI:
 
