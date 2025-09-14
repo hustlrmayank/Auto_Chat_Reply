@@ -60,7 +60,7 @@ Troubleshooting
 - If API calls fail, confirm GEMINI env var is set and the package is correctly installed.
 - If model responses are unexpected, inspect the system instruction in model.
 
--License & security
+- License & security
 
 - Do not commit your .env; it is already in .gitignore.
 - Treat API keys as secrets.
