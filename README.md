@@ -39,7 +39,7 @@ Use move.py to print cursor coordinates and update the click/drag coordinates in
            ```sh
             python program.py
 
-After a short delay the script will:
+- After a short delay the script will:
 1. Click the configured icon position and select the chat area.
 2. Copy the selected chat to clipboard and parse it.
 3. Use is_last_message_from to check whether the last message sender matches the configured name (default: "Hardik").
@@ -56,13 +56,13 @@ Model config: model (in program.py)
 Coordinate helper: move.py
 Troubleshooting
 
-If the script copies nothing, verify selection coordinates and clipboard permissions.
-If API calls fail, confirm GEMINI env var is set and the package is correctly installed.
-If model responses are unexpected, inspect the system instruction in model.
-License & security
+-- If the script copies nothing, verify selection coordinates and clipboard permissions.
+-- If API calls fail, confirm GEMINI env var is set and the package is correctly installed.
+-- If model responses are unexpected, inspect the system instruction in model.
 
-Do not commit your .env; it is already in .gitignore.
-Treat API keys as secrets.
-Contact
+-License & security
 
-For adjustments to coordinates or parsing logic, modify program.py and use move.py for coordinate discovery.
+- Do not commit your .env; it is already in .gitignore.
+- Treat API keys as secrets.
+
+- For adjustments to coordinates or parsing logic, modify program.py and use move.py for coordinate discovery.
