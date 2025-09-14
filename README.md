@@ -35,7 +35,7 @@ Use move.py to print cursor coordinates and update the click/drag coordinates in
 
   Usage
 
-          Run the automation:
+  - Run the automation:
            ```sh
             python program.py
 
@@ -56,9 +56,9 @@ Model config: model (in program.py)
 Coordinate helper: move.py
 Troubleshooting
 
--- If the script copies nothing, verify selection coordinates and clipboard permissions.
--- If API calls fail, confirm GEMINI env var is set and the package is correctly installed.
--- If model responses are unexpected, inspect the system instruction in model.
+- If the script copies nothing, verify selection coordinates and clipboard permissions.
+- If API calls fail, confirm GEMINI env var is set and the package is correctly installed.
+- If model responses are unexpected, inspect the system instruction in model.
 
 -License & security
 
