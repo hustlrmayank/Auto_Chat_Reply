@@ -33,11 +33,11 @@ Verify coordinates
 Use move.py to print cursor coordinates and update the click/drag coordinates in program.py if needed.
 
 
-Usage
+  Usage
 
-  Run the automation:
-   ```sh
-    python program.py
+          Run the automation:
+           ```sh
+            python program.py
 
 After a short delay the script will:
 1. Click the configured icon position and select the chat area.
